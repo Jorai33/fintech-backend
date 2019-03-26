@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "tsc": "tsc",
-    "dev": "tsc && node %NODE_DEBUG_OPTION% dist/src/index.js",
+    "dev": "tsc && node dist/src/index.js",
     "init-db": "tsc && node dist/scripts/initDb.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
